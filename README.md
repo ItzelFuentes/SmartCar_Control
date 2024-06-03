@@ -37,10 +37,10 @@
 ## Historias de usuario epicas
 | Id | Historia de usuario | Prioridad | Estimación | Como probarlo | Responsable |
 |----|---------------------|-----------|------------|---------------|-------------|
-|  1 | Como usuario quiero poder darle de comer a mi mascota cada cierto tiempo.|Alta|2-3 semanas|Se deberá esperar a que se llegue a la hora programada para ver que efectivamente funciona.|Itzel|
-|  2 |Como usuario quiero poder ver mediante la aplicación (Telegram o la pantalla quiero poder revisar si hay agua o no hay alimento.|Alta|2-3 semanas|Esperar a que se vacié el dispensador o verifique en la pantalla si es que hay o no hay alimento y se tenga un control de alimentacion.|Abraham|
-|  3|Como usuario quiero manejar a tráves de una aplicación controlar el dispensador de alimento y agua|Media|2-3semanas|Observando que al momento de llenar presionar o mandar un mensaje se llene el dispensador de la comida para así tener un control con la comida|Rodrigo|
-|  4|Como usuario quiero que mi mascota se pueda alimentar en el momento en el que se acerca al dispensador.|Media|2-3semanas|Observando a la mascota acercarse al sensor y ver como este reacciona|Alma|
+|  1 | Control dea cceso y seguridad del vehículo. |Alta|3-4 semanas|Abrir y cerrar los seguros desde la aplicación móvil, verificar el cierre automático al alejarse y desconectar Bluetooth, y probar el encendido automático de luces en baja luminosidad.|Jorge|
+|  2 |Monitoreo de datos del vehículo. |Alta|3-4 semanas|Visualizar en la aplicación móvil los datos del vehículo como nivel de gasolina, nivel de luz y temperatura, y verificar que se puedan monitorear estos datos de manera remota.|Itzel|
+|  3|Configuración remota del vehículo.|Alta|3-4 semanas|Configurar el tiempo de espera para el cierre automático de los seguros desde la aplicación móvil y verificar que la configuración se aplique correctamente de forma remota.|Sandra|
+
 
 
 ## Fotografía tomada del dibujo del prototipo propuesto por el equipo para el proyecto
