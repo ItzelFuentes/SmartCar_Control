@@ -37,9 +37,9 @@ Desarrollar un sistema IoT integral para vehículos que permita a los conductore
 ## Historias de usuario epicas
 | Id | Historia de usuario | Prioridad | Estimación | Como probarlo | Responsable |
 |----|---------------------|-----------|------------|---------------|-------------|
-|  1 | Control dea cceso y seguridad del vehículo. |Alta|3-4 semanas|Abrir y cerrar los seguros desde la aplicación móvil, verificar el cierre automático al alejarse y desconectar Bluetooth, y probar el encendido automático de luces en baja luminosidad.|Jorge|
+|  1|Configuración remota del vehículo.|Alta|3-4 semanas|Configurar el tiempo de espera para el cierre automático de los seguros desde la aplicación móvil y verificar que la configuración se aplique correctamente de forma remota.|Sandra|
 |  2 |Monitoreo de datos del vehículo. |Alta|3-4 semanas|Visualizar en la aplicación móvil los datos del vehículo como nivel de gasolina, nivel de luz y temperatura, y verificar que se puedan monitorear estos datos de manera remota.|Itzel|
-|  3|Configuración remota del vehículo.|Alta|3-4 semanas|Configurar el tiempo de espera para el cierre automático de los seguros desde la aplicación móvil y verificar que la configuración se aplique correctamente de forma remota.|Sandra|
+|  3 | Control dea cceso y seguridad del vehículo. |Alta|3-4 semanas|Abrir y cerrar los seguros desde la aplicación móvil, verificar el cierre automático al alejarse y desconectar Bluetooth, y probar el encendido automático de luces en baja luminosidad.|Jorge|
 
 
 
