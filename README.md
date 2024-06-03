@@ -18,7 +18,6 @@ Desarrollar un sistema IoT integral para vehículos que permita a los conductore
 ## Hardware empleado
 | Id | Componente | Descripción | Imagen | Cantidad | Costo total |
 |----|------------|-------------|--------|----------|-------------|
-
 |   1|Pantalla táctil 2.4'' | Resolución de 240*320, color de 18 bits. Controlador spdf5408 con memoria RAM de vídeo integrada. |![image](https://github.com/ItzelFuentes/SmartCar_Control/assets/108686186/9692adcf-d0c8-4b60-a0ec-93edf5e8dc08)|1|$200|
 |   2|Switch interruptor de puerta Sedan Vocho|Switch para controlar las puertas del vehículo VOKSWAGEN Sedan Vocho. |![image](https://http2.mlstatic.com/D_NQ_NP_729931-MLM52542567964_112022-O.webp)|2|$100|
 |   3|Flotador tanque gasolina Sedan Vocho|El flotador de tanque de gasolina Flotamex para Volkswagen Sedan Vocho (1968-1978) es un sensor de palanca que garantiza lecturas precisas del nivel de combustible en el depósito, mejorando la eficiencia y seguridad del vehículo.|![image](https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcT9xfEkWam9GfQci0_2qMXFN706pD4-3qgrR-UJ7dHPn98f183bBvIHhETWvM7uIAH1kt6rMZZLOIb1A2wrSx8_d_D0Cd-jzaahV7EEtMtBrL7YbksHhu8u6ib40Y3Uvt8cIdv_yOk&usqp=CAc)|1|$342| 
