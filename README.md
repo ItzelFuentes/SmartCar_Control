@@ -52,12 +52,13 @@ se solicita que contenga al menos los siguientes elementos: sensores, actuadores
 ## Captura de pantalla del tablero kanban para cada uno de los sprints del proyecto
 En cada sprint se contemplan los siguientes tableros: Entrada, análisis, construcción, revisión y terminado.
 
-|Sprint 1|
-|![image](https://github.com/ItzelFuentes/SmartCar_Control/assets/108686186/cd066a9d-b3c2-4754-930b-8b0534ba15f6)|
-|Sprint 2|
-|![image](https://github.com/ItzelFuentes/SmartCar_Control/assets/108686186/c453dfaf-1874-41cb-9672-a3620610aee0) ![image](https://github.com/ItzelFuentes/SmartCar_Control/assets/108686186/133eb33a-a6de-472c-bf37-e1e14e0671ed)|
-|Sprint 3|
-|![image](https://github.com/ItzelFuentes/SmartCar_Control/assets/108686186/6e707852-41a7-46bd-af90-a454dd8e6f5e)|
+| Sprint | Tablero Trello | 
+|----|----------|
+| 1  ||![image](https://github.com/ItzelFuentes/SmartCar_Control/assets/108686186/cd066a9d-b3c2-4754-930b-8b0534ba15f6)|
+
+| 2 ||![image](https://github.com/ItzelFuentes/SmartCar_Control/assets/108686186/c453dfaf-1874-41cb-9672-a3620610aee0) ![image](https://github.com/ItzelFuentes/SmartCar_Control/assets/108686186/133eb33a-a6de-472c-bf37-e1e14e0671ed)|
+| 3 |![image](https://github.com/ItzelFuentes/SmartCar_Control/assets/108686186/affa7877-c9ee-4b10-99e4-893a795a47d2) ![image](https://github.com/ItzelFuentes/SmartCar_Control/assets/108686186/8037ad2f-8811-4e55-91f0-b00f84e035c5)|
+
 
 
 ## Circuito diseñado para el proyecto completo 
