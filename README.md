@@ -44,6 +44,7 @@ Desarrollar un sistema IoT integral para vehículos que permita a los conductore
 
 
 ## Fotografía tomada del dibujo del prototipo propuesto por el equipo para el proyecto
+![image](https://github.com/ItzelFuentes/SmartCar_Control/assets/108686186/ca33f3f8-d11c-4f32-b334-29e8da7ce316)
 
 
 ## Arquitectura del proyecto
