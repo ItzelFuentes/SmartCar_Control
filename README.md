@@ -66,6 +66,14 @@ En cada sprint se contemplan los siguientes tableros: Entrada, análisis, constr
 
 
 ## Resultados, screenshot de cada uno de los resultados del proyecto, con una descripción sintetizada
+Pantalla
+![image](https://github.com/ItzelFuentes/SmartCar_Control/assets/106613946/591c2e9b-1f85-4306-8d99-eb7074ee0edb)
+
+reloj
+![image](https://github.com/ItzelFuentes/SmartCar_Control/assets/106613946/997714a3-8f70-49d9-9e35-fd8544101f24)
+
+Bluetooth
+![image](https://github.com/ItzelFuentes/SmartCar_Control/assets/106613946/ebb0a19d-2160-47e3-a07e-3874fd91453c)
 
 
 
