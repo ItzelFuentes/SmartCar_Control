@@ -52,7 +52,8 @@ se solicita que contenga al menos los siguientes elementos: sensores, actuadores
 ## Captura de pantalla del tablero kanban para cada uno de los sprints del proyecto
 
 ## Circuito diseñado para el proyecto completo 
-puede ir evolucionando en cada sprint del proyecto
+![image](https://github.com/ItzelFuentes/SmartCar_Control/assets/106613946/ee4bb620-b094-4952-a988-cab3342de3bc)
+
 
 
 ## Resultados, screenshot de cada uno de los resultados del proyecto, con una descripción sintetizada
