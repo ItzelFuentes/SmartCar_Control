@@ -50,6 +50,15 @@ Desarrollar un sistema IoT integral para vehículos que permita a los conductore
 se solicita que contenga al menos los siguientes elementos: sensores, actuadores, controladores, plataforma de base de datos, protocolo de comunicación, gestión de energía, dispositivos receptores y/o transmisores, puede contener además elementos de nube, redes, seguridad, dispositivos pasivos, direccionalidad de comunicación
 
 ## Captura de pantalla del tablero kanban para cada uno de los sprints del proyecto
+En cada sprint se contemplan los siguientes tableros: Entrada, análisis, construcción, revisión y terminado.
+
+|Sprint 1|
+|![image](https://github.com/ItzelFuentes/SmartCar_Control/assets/108686186/cd066a9d-b3c2-4754-930b-8b0534ba15f6)|
+|Sprint 2|
+|![image](https://github.com/ItzelFuentes/SmartCar_Control/assets/108686186/c453dfaf-1874-41cb-9672-a3620610aee0) ![image](https://github.com/ItzelFuentes/SmartCar_Control/assets/108686186/133eb33a-a6de-472c-bf37-e1e14e0671ed)|
+|Sprint 3|
+|![image](https://github.com/ItzelFuentes/SmartCar_Control/assets/108686186/6e707852-41a7-46bd-af90-a454dd8e6f5e)|
+
 
 ## Circuito diseñado para el proyecto completo 
 ![image](https://github.com/ItzelFuentes/SmartCar_Control/assets/106613946/ee4bb620-b094-4952-a988-cab3342de3bc)
