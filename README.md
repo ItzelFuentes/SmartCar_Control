@@ -61,8 +61,7 @@ En cada sprint se contemplan los siguientes tableros: Entrada, análisis, constr
 
 
 ## Circuito diseñado para el proyecto completo 
-![image](https://github.com/ItzelFuentes/SmartCar_Control/assets/106613946/ee4bb620-b094-4952-a988-cab3342de3bc)
-
+![image](https://github.com/ItzelFuentes/SmartCar_Control/assets/106613946/fb2796a6-654e-4c32-82cd-eae0b239953c)
 
 
 ## Resultados, screenshot de cada uno de los resultados del proyecto, con una descripción sintetizada
