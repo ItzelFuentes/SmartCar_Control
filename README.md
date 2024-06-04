@@ -66,6 +66,8 @@ En cada sprint se contemplan los siguientes tableros: Entrada, análisis, constr
 
 
 ## Resultados, screenshot de cada uno de los resultados del proyecto, con una descripción sintetizada
+En esta primera entrega se logró concretar un circuito integrado por un arduino mega, una pantalla touch de 2.4'', un buzzer, un módulo bluetooth y un módulo reloj. Se logró enlazar la pantalla a con una app móvil a través de bluetooth.
+
 Pantalla
 ![image](https://github.com/ItzelFuentes/SmartCar_Control/assets/106613946/591c2e9b-1f85-4306-8d99-eb7074ee0edb)
 
