@@ -50,7 +50,8 @@ Desarrollar un sistema IoT integral para vehículos que permita a los conductore
 ## Arquitectura del proyecto
 se solicita que contenga al menos los siguientes elementos: sensores, actuadores, controladores, plataforma de base de datos, protocolo de comunicación, gestión de energía, dispositivos receptores y/o transmisores, puede contener además elementos de nube, redes, seguridad, dispositivos pasivos, direccionalidad de comunicación
 
-## Ruta del tablero
+## Enlace del tablero
+https://trello.com/invite/smartcar_control/ATTIeba192e7d150dd27d8a691774a0823057098A1BC
 
 ## Captura de pantalla del tablero kanban para cada uno de los sprints del proyecto
 En cada sprint se contemplan los siguientes tableros: Entrada, análisis, construcción, revisión y terminado.
