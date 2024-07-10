@@ -28,7 +28,8 @@ Desarrollar un sistema IoT integral para vehículos que permita a los conductore
 |   8|Buzzer| Es un dispositivo que tiene la capacidad de generar una señal de audio al ser alimentado|<img src="https://user-images.githubusercontent.com/106613946/233209389-17df52bd-0712-4ba0-9873-b426f1123213.png" width="400">|1|$15| 
 |   9|Cable USB para Arduino mega| Cable USB que permite la alimentación y comunicación compatible con Arduino Mega.|<img src="https://github.com/ItzelFuentes/SmartCar_Control/assets/108686186/36ffa2b7-0adc-48ec-9e8c-b3cbd7d995dd" width="400">|1|$25|
 |  10|Fotorresistencia|Es un componente electrónico cuya resistencia disminuye con el aumento de intensidad de luz incidente.|<img src="https://github.com/ItzelFuentes/SmartCar_Control/assets/106613946/3edfb97d-ca44-4a34-9ee3-f907f25e72a7" width="400">|1|$45|
-
+|  11|Laptop HP| Computadora personal móvil, un dispositivo con el que puedes realizar todas las tareas disponibles en una computadora de escritorio pero en un formato compacto, liviano y portátil.|<img src="![image](https://github.com/ItzelFuentes/SmartCar_Control/assets/106613946/654a1791-c2b6-4750-9d00-d0b76cac688b)
+" width="400">|1| |
 
 <!-- |   12|Protoboard|es prácticamente una PCB temporal con una forma y tamaño generalizados. Utilizada comúnmente para pruebas y prototipos temporales de circuitos|![image](https://user-images.githubusercontent.com/106613946/233217981-e8de4fd7-44f6-463f-b818-45785af1aeb5.png)|1|$0| 
 |   13|Adaptador de fuente de alimentación de 12V 5A| Es un dispositivo electrónico comúnmente llamado fuente de alimentación, fuente de poder o fuente conmutada|![image](https://user-images.githubusercontent.com/106613946/233218241-90c26d7e-14da-4751-9295-47106387fa82.png)|1|$0| 
