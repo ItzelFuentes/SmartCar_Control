@@ -12,8 +12,7 @@ Desarrollar un sistema IoT integral para vehículos que permita a los conductore
 | Id | Software | Version | Tipo |
 |----|----------|---------|------|
 | 1  |Arduino   |2.0.1    |   IDE|
-| 2  |Node-red  |3.0      |Servicio|
-|3|Sqlite|3.46.0|SGBD|
+| 2  |B4A  |12.80      |IDE|
 
 ## Hardware empleado
 | Id | Componente | Descripción | Imagen | Cantidad | Costo total |
@@ -29,6 +28,9 @@ Desarrollar un sistema IoT integral para vehículos que permita a los conductore
 |   9|Cable USB para Arduino mega| Cable USB que permite la alimentación y comunicación compatible con Arduino Mega.|<img src="https://github.com/ItzelFuentes/SmartCar_Control/assets/108686186/36ffa2b7-0adc-48ec-9e8c-b3cbd7d995dd" width="400">|1|$25|
 |  10|Fotorresistencia|Es un componente electrónico cuya resistencia disminuye con el aumento de intensidad de luz incidente.|<img src="https://github.com/ItzelFuentes/SmartCar_Control/assets/106613946/3edfb97d-ca44-4a34-9ee3-f907f25e72a7" width="400">|1|$45|
 |  11|Laptop HP| Computadora personal móvil, un dispositivo con el que puedes realizar todas las tareas disponibles en una computadora de escritorio pero en un formato compacto, liviano y portátil.|<img src="https://github.com/ItzelFuentes/SmartCar_Control/assets/106613946/654a1791-c2b6-4750-9d00-d0b76cac688b" width="400">|1| |
+| 12 | Arduino Uno | El Arduino Uno es una placa de microcontrolador de código abierto basado en el microchip ATmega328P y desarrollado por Arduino.cc. ​​ La placa está equipada con conjuntos de pines de E/S digitales y analógicas que pueden conectarse a varias placas de expansión y otros circuitos. | ![image](https://github.com/user-attachments/assets/f3196b17-c114-4fdc-bcbc-7f9fb9a044a8) | 1 | $250 |
+| 13 | Placa Rele 16 canales | es un módulo electrónico que permite controlar dispositivos de alta potencia o alta corriente utilizando señales de baja potencia, como las que provienen de un microcontrolador o un Arduino. | ![image](https://github.com/user-attachments/assets/412b089b-22bb-4a45-b306-f0202d66ef48) | 1 | $513 |
+| | Pláca felónica | ![image](https://github.com/user-attachments/assets/f34dbb6c-e5a8-4ca6-ba4b-9730b213dcf8) | |
 
 <!-- |   12|Protoboard|es prácticamente una PCB temporal con una forma y tamaño generalizados. Utilizada comúnmente para pruebas y prototipos temporales de circuitos|![image](https://user-images.githubusercontent.com/106613946/233217981-e8de4fd7-44f6-463f-b818-45785af1aeb5.png)|1|$0| 
 |   13|Adaptador de fuente de alimentación de 12V 5A| Es un dispositivo electrónico comúnmente llamado fuente de alimentación, fuente de poder o fuente conmutada|![image](https://user-images.githubusercontent.com/106613946/233218241-90c26d7e-14da-4751-9295-47106387fa82.png)|1|$0| 
