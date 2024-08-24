@@ -42,44 +42,46 @@ Desarrollar un sistema IoT integral para vehículos que permita a los conductore
 |  3 |Configuración remota del vehículo.|Alta|3-4 semanas|Configurar el tiempo de espera para el cierre automático de los seguros desde la aplicación móvil y verificar que la configuración se aplique correctamente de forma remota.|Sandra|
 
 
-## Fotografía tomada del dibujo del prototipo propuesto por el equipo para el proyecto
+## Prototipo del proyecto
 ![Doc1_page-0001 (1)](https://github.com/ItzelFuentes/SmartCar_Control/assets/108686186/6293bcb3-25da-4827-9edd-7b08098e2b30)
 
 
 ## Arquitectura del proyecto
 se solicita que contenga al menos los siguientes elementos: sensores, actuadores, controladores, plataforma de base de datos, protocolo de comunicación, gestión de energía, dispositivos receptores y/o transmisores, puede contener además elementos de nube, redes, seguridad, dispositivos pasivos, direccionalidad de comunicación
 
-## Enlace del tablero
-https://trello.com/invite/smartcar_control/ATTIeba192e7d150dd27d8a691774a0823057098A1BC
-
-## Captura de pantalla del tablero kanban para cada uno de los sprints del proyecto
-En cada sprint se contemplan los siguientes tableros: Entrada, análisis, construcción, revisión y terminado.
-
-| Sprint | Tablero Trello | 
-|----|----------|
-| 1  |![image](https://github.com/ItzelFuentes/SmartCar_Control/assets/108686186/cd066a9d-b3c2-4754-930b-8b0534ba15f6)|
-| 2 |![image](https://github.com/ItzelFuentes/SmartCar_Control/assets/108686186/c453dfaf-1874-41cb-9672-a3620610aee0) ![image](https://github.com/ItzelFuentes/SmartCar_Control/assets/108686186/133eb33a-a6de-472c-bf37-e1e14e0671ed)|
-| 3 |![image](https://github.com/ItzelFuentes/SmartCar_Control/assets/108686186/affa7877-c9ee-4b10-99e4-893a795a47d2) ![image](https://github.com/ItzelFuentes/SmartCar_Control/assets/108686186/8037ad2f-8811-4e55-91f0-b00f84e035c5)|
-
-
 
 ## Circuito diseñado para el proyecto completo 
+![image](https://github.com/user-attachments/assets/593cc8da-3d8f-4fc3-b15f-94d43c1049b1)
+
+
+## Resultados
+
+### Primer avance
+En la primer entrega se logró concretar un circuito integrado por un arduino mega, una pantalla touch de 2.4'', un buzzer, un módulo bluetooth y un módulo reloj. Se logró enlazar la pantalla a con una app móvil a través de bluetooth. 
 ![image](https://github.com/ItzelFuentes/SmartCar_Control/assets/106613946/fb2796a6-654e-4c32-82cd-eae0b239953c)
-
-
-## Resultados, screenshot de cada uno de los resultados del proyecto, con una descripción sintetizada
-En la entrega se logró concretar un circuito integrado por un arduino mega, una pantalla touch de 2.4'', un buzzer, un módulo bluetooth y un módulo reloj. Se logró enlazar la pantalla a con una app móvil a través de bluetooth. 
 
 | Circuito | Aplicación móvil | 
 |----|----------|
 |<img src = "https://github.com/ItzelFuentes/SmartCar_Control/assets/106613946/591c2e9b-1f85-4306-8d99-eb7074ee0edb" width="500"> <img src = "https://github.com/ItzelFuentes/SmartCar_Control/assets/106613946/ebb0a19d-2160-47e3-a07e-3874fd91453c" width="500"> | <img src = "https://github.com/ItzelFuentes/SmartCar_Control/assets/108686186/de7cfabb-ed8e-427b-8c33-7caf32ed3ab4" width="500"> <img src = "https://github.com/ItzelFuentes/SmartCar_Control/assets/108686186/45584c5a-5581-43be-bda1-567bdcdd6adc" width="500">|
 
+### Evidencia del proceso
+![image](https://github.com/user-attachments/assets/aa334c66-69cd-4e6f-88b9-b4e278f93fce)
+![image](https://github.com/user-attachments/assets/42f0e77d-0849-406b-b284-4d1a9f82d761)
+![image](https://github.com/user-attachments/assets/33978e2e-d2a5-46dc-87e1-7ab4c986c833)
+![image](https://github.com/user-attachments/assets/3e8d4335-f7b1-4adf-bae3-daf5d0d3088a)
 
-# Vídeo de beneficiario
-https://youtu.be/iRV3VPJSR0M
 
-# Vídeo del proyetco finalizado
+### Resultado final
+![image](https://github.com/user-attachments/assets/16e4a527-40f5-4356-be32-7c6f0ecce2b8)
+![image](https://github.com/user-attachments/assets/529988ed-549e-4498-91d6-3e70d72ab521)
+![image](https://github.com/user-attachments/assets/d78592b2-2cd3-4832-9e34-9973739ec9b9)
+
+
+# Vídeo demostrativo del proyecto
 https://youtu.be/_dml0_VoMwM
+
+# Vídeo del beneficiario
+https://youtu.be/iRV3VPJSR0M
 
 # Carta de agradecimiento
 ![image](https://github.com/user-attachments/assets/809c0ead-7023-4a06-91cc-d69897338d31)
