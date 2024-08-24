@@ -46,10 +46,6 @@ Desarrollar un sistema IoT integral para vehículos que permita a los conductore
 ![Doc1_page-0001 (1)](https://github.com/ItzelFuentes/SmartCar_Control/assets/108686186/6293bcb3-25da-4827-9edd-7b08098e2b30)
 
 
-## Arquitectura del proyecto
-se solicita que contenga al menos los siguientes elementos: sensores, actuadores, controladores, plataforma de base de datos, protocolo de comunicación, gestión de energía, dispositivos receptores y/o transmisores, puede contener además elementos de nube, redes, seguridad, dispositivos pasivos, direccionalidad de comunicación
-
-
 ## Circuito diseñado para el proyecto completo 
 ![image](https://github.com/user-attachments/assets/593cc8da-3d8f-4fc3-b15f-94d43c1049b1)
 
