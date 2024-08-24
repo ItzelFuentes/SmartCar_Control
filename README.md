@@ -66,16 +66,19 @@ En la primer entrega se logró concretar un circuito integrado por un arduino me
 
 ### Evidencia del proceso
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/aa334c66-69cd-4e6f-88b9-b4e278f93fce" width="300" height="200" alt="image1">
-  <img src="https://github.com/user-attachments/assets/42f0e77d-0849-406b-b284-4d1a9f82d761" width="300" height="200" alt="image2">
-  <img src="https://github.com/user-attachments/assets/33978e2e-d2a5-46dc-87e1-7ab4c986c833" width="300" height="200" alt="image3">
-  <img src="https://github.com/user-attachments/assets/3e8d4335-f7b1-4adf-bae3-daf5d0d3088a" width="300" height="200" alt="image4">
+  <img src="https://github.com/user-attachments/assets/aa334c66-69cd-4e6f-88b9-b4e278f93fce" width="300" alt="image1">
+  <img src="https://github.com/user-attachments/assets/42f0e77d-0849-406b-b284-4d1a9f82d761" width="300" alt="image2">
+  <img src="https://github.com/user-attachments/assets/33978e2e-d2a5-46dc-87e1-7ab4c986c833" width="300" alt="image3">
+  <img src="https://github.com/user-attachments/assets/3e8d4335-f7b1-4adf-bae3-daf5d0d3088a" width="300" alt="image4">
 </p>
 
+
 ### Resultado final
-![image](https://github.com/user-attachments/assets/16e4a527-40f5-4356-be32-7c6f0ecce2b8)
-![image](https://github.com/user-attachments/assets/529988ed-549e-4498-91d6-3e70d72ab521)
-![image](https://github.com/user-attachments/assets/d78592b2-2cd3-4832-9e34-9973739ec9b9)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/16e4a527-40f5-4356-be32-7c6f0ecce2b8" width="300" alt="image1">
+  <img src="https://github.com/user-attachments/assets/529988ed-549e-4498-91d6-3e70d72ab521" width="300" alt="image2">
+  <img src="https://github.com/user-attachments/assets/d78592b2-2cd3-4832-9e34-9973739ec9b9" width="300" alt="image3">
+</p>
 
 
 # Vídeo demostrativo del proyecto
