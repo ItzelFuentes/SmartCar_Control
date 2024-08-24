@@ -1,0 +1,500 @@
+﻿Build1=Default,anywheresoftware.b4a.samples.serial
+File1=1.bal
+File2=crysta.ttf
+FileGroup1=Default Group
+FileGroup2=Default Group
+Group=Default Group
+Library1=core
+Library2=keyvaluestore2
+Library3=randomaccessfile
+Library4=serial
+Library5=xui views
+Library6=byteconverter
+ManifestCode='This code will be applied to the manifest file during compilation.~\n~'You do not need to modify it in most cases.~\n~'See this link for for more information: http://www.b4x.com/forum/showthread.php?p=78136~\n~AddManifestText(~\n~<uses-sdk android:minSdkVersion="23" android:targetSdkVersion="23"/>~\n~<supports-screens android:largeScreens="true" ~\n~    android:normalScreens="true" ~\n~    android:smallScreens="true" ~\n~    android:anyDensity="true"/>)~\n~SetApplicationAttribute(android:icon, "@drawable/icon")~\n~SetApplicationAttribute(android:label, "$LABEL$")~\n~AddPermission(android.permission.ACCESS_FINE_LOCATION)~\n~AddPermission(android.permission.BLUETOOTH)~\n~AddPermission(android.permission.BLUETOOTH_ADMIN)~\n~SetApplicationAttribute(android:theme, "@android:style/Theme.Holo.Light")~\n~'End of default text.~\n~
+Module1=Gauge
+Module2=Starter
+NumberOfFiles=2
+NumberOfLibraries=6
+NumberOfModules=2
+Version=11
+@EndOfDesignText@
+#Region Module Attributes
+	#FullScreen: False
+	#IncludeTitle: False
+	#ApplicationLabel: VW App
+	#VersionCode: 1
+	#VersionName: 
+	'SupportedOrientations possible values: unspecified, landscape or portrait.
+	#SupportedOrientations: portrait
+#End Region
+
+'Activity module
+Sub Process_Globals
+End Sub
+
+Sub Globals
+	Private txtLog As EditText
+	Private txtSend As EditText
+	Private Button1 As Button
+	Private Button3 As Button
+	Private Button2 As Button
+	Private Panel2 As Panel
+	Private Panel1 As Panel
+	Private Button4 As Button
+	Private Panel3 As Panel
+	Private Button5 As Button
+	Private Button6 As Button
+	Private Button7 As Button
+	Private Panel4 As Panel
+	Private Panel5 As Panel
+	Private Pro As Label
+	Private Ala As Label
+	Private Enc As Label
+	Private Panel6 As Panel
+	Private Button10 As Button
+	Private EditText1 As EditText
+	Private EditText2 As EditText
+	Private EditText3 As EditText
+	Private EditText4 As EditText
+	Private Panel7 As Panel
+	Private Button11 As Button
+	Private EditText6 As EditText
+	Private EditText7 As EditText
+	Private EditText8 As EditText
+	Private EditText5 As EditText
+	Private EditText9 As EditText
+	Private EditText10 As EditText
+	Private Button12 As Button
+	Private EditText11 As EditText
+	Private EditText12 As EditText
+	Private EditText13 As EditText
+	Private CheckBox1 As CheckBox
+	Private gas As String
+	Private ldr As String
+	Private Label21 As Label
+	Private Label23 As Label
+	Private EditText15 As EditText
+	Private EditText14 As EditText
+	Private EditText16 As EditText
+	Private EditText17 As EditText
+	Private CheckBox2 As CheckBox
+	Private Button33 As Button
+	Private Button34 As Button
+	Private Button20 As Button
+	Private Button21 As Button
+	Private Button22 As Button
+	Private Button23 As Button
+	Private Button24 As Button
+	Private Button25 As Button
+	Private Button26 As Button
+	Private Button27 As Button
+	Private Button28 As Button
+	Private Button29 As Button
+	Private Button30 As Button
+	Private Button31 As Button
+	Private Button32 As Button
+	Private Button35 As Button
+	Private Label30 As Label
+	Private Label31 As Label
+	Private Label32 As Label
+	Private Label33 As Label
+	Private Label34 As Label
+	Private Label35 As Label
+	Private Label36 As Label
+	Private Label37 As Label
+	Private Label38 As Label
+	Private Label39 As Label
+End Sub
+
+Sub Activity_Create(FirstTime As Boolean)
+	If FirstTime Then
+	End If
+	Activity.LoadLayout("1")
+	EditText10.Text=Starter.kvs.Get("BT_name")
+End Sub
+
+Sub Activity_Resume
+'	If Serial1.IsEnabled = True Then
+'		Button1.Enabled=True
+'		Serial1.Listen 
+'	End If
+	Conec(Starter.Connected)
+'	CallSub2(Starter,"Send","update")
+	
+End Sub
+
+Sub Activity_Pause(UserClosed As Boolean)
+	If UserClosed Then
+'		AStreams.Close
+	End If
+End Sub
+
+Sub GetBit(b As Int, index As Int) As Boolean
+	Dim t As Int = Bit.ShiftLeft(1, index)
+	Return Bit.And(b, t) = t
+End Sub
+
+Sub Rellena(data As String)
+	Dim idx,val As String
+	If data.IndexOf("get03")>=0 Then
+		Dim  jorge=data.substring(5) As Int
+		If GetBit(jorge,0) Then	Button33.Color=Colors.Green	Else Button33.Color=Colors.red
+		If GetBit(jorge,1) Then	Button34.Color=Colors.Green	Else Button34.Color=Colors.red
+		If GetBit(jorge,2) Then	Button24.Color=Colors.Green Else Button24.Color=Colors.red
+		If GetBit(jorge,3) Then	Button32.Color=Colors.Green	Else Button32.Color=Colors.red
+		If GetBit(jorge,4) Then	Button28.Color=Colors.Green	Else Button28.Color=Colors.red
+		If GetBit(jorge,5) Then	Button21.Color=Colors.Green	Else Button21.Color=Colors.red
+		If GetBit(jorge,6) Then	Button27.Color=Colors.Green	Else Button27.Color=Colors.red
+		If GetBit(jorge,7) Then	Button26.Color=Colors.Green	Else Button26.Color=Colors.red
+		If GetBit(jorge,8) Then	Button31.Color=Colors.Green	Else Button31.Color=Colors.red
+		If GetBit(jorge,9) Then Button29.Color=Colors.Green Else Button29.Color=Colors.red
+		If GetBit(jorge,10) Then Button23.Color=Colors.Green Else Button23.Color=Colors.red
+		If GetBit(jorge,11) Then Button22.Color=Colors.Green Else Button22.Color=Colors.red
+		If GetBit(jorge,12) Then Button30.Color=Colors.Green Else Button30.Color=Colors.red
+		If GetBit(jorge,13) Then Button20.Color=Colors.Green Else Button20.Color=Colors.red
+		If GetBit(jorge,14) Then Button25.Color=Colors.Green Else Button25.Color=Colors.red
+		If GetBit(jorge,15) Then Button35.Color=Colors.Green Else Button35.Color=Colors.red
+	End If
+	If data.IndexOf("get02")>=0 Then
+		Dim  jorge=data.substring(5) As Int
+		If GetBit(jorge,0) Then	Label37.Color=Colors.Green Else Label37.Color=Colors.red
+		If GetBit(jorge,1) Then	Label35.Color=Colors.Green Else Label35.Color=Colors.red
+		If GetBit(jorge,2) Then	Label34.Color=Colors.Green Else Label34.Color=Colors.red
+		If GetBit(jorge,3) Then	Label39.Color=Colors.Green Else Label39.Color=Colors.red
+		If GetBit(jorge,4) Then	Label32.Color=Colors.Green Else Label32.Color=Colors.red
+		If GetBit(jorge,5) Then Label30.Color=Colors.Green Else Label30.Color=Colors.red
+		If GetBit(jorge,6) Then	Label33.Color=Colors.Green Else Label33.Color=Colors.red
+		If GetBit(jorge,7) Then	Label31.Color=Colors.Green Else Label31.Color=Colors.red
+		If GetBit(jorge,8) Then	Label38.Color=Colors.Green Else Label38.Color=Colors.red		
+		If GetBit(jorge,9) Then Label36.Color=Colors.Green Else Label36.Color=Colors.red
+	End If
+	
+	If data.IndexOf("Set1")>=0 Then CheckBox2.Checked=True
+	If data.IndexOf("Set0")>=0 Then CheckBox2.Checked=False
+	If data.IndexOf("Gas")>=0 Then
+		gas=data.SubString2(3,data.Length)
+		Label21.Text="Gas:"&gas.Trim
+	End If
+	If data.IndexOf("LDR")>=0 Then
+		ldr=data.SubString2(3,data.Length)
+		Label23.Text="LDR:"&ldr.Trim
+	End If
+	If data.IndexOf("Mem")>=0 Then
+		idx=data.SubString2(3,data.IndexOf("="))
+		val=data.SubString2(data.IndexOf("=")+1,data.Length)
+		If idx="0" Then EditText1.Text=val
+		If idx="2" Then EditText2.Text=val
+		If idx="4" Then EditText3.Text=val
+		If idx="6" Then EditText4.Text=val
+		If idx="8" Then EditText5.Text=val
+		If idx="13" Then EditText6.Text=val
+		If idx="19" Then EditText7.Text=val
+		If idx="21" Then EditText8.Text=val
+		If idx="23" Then EditText9.Text=val
+		If idx="28" Then EditText11.Text=val
+		If idx="30" Then EditText12.Text=val
+		If idx="32" Then EditText13.Text=val
+		If idx="34" Then EditText14.Text=val
+		If idx="36" Then EditText15.Text=val
+		If idx="38" Then
+			If val="0" Then
+				CheckBox1.Checked=False
+			Else
+				CheckBox1.Checked=True
+			End If
+		End If	
+		If idx="40" Then EditText16.Text=val
+		If idx="42" Then EditText17.Text=val
+	End If
+	txtLog.Text= data & Chr(10) & Chr(13) & txtLog.Text
+End Sub
+
+Sub Conec(cmd As Boolean)
+	Button1.Enabled=True
+	If cmd=True Then
+		Button1.Text="Desconectar"
+		EditText10.Visible=False
+		Panel5.Visible=True
+	Else
+		Button1.Text="Conectar"
+		EditText10.Visible=True
+		Cerrar
+	End If
+End Sub
+
+Private Sub Cerrar
+	Button1.Text="Conectar"
+	EditText10.Visible=True
+	Panel1.Visible=True
+	Panel2.Visible=False
+	Panel3.Visible=False
+	Panel4.Visible=False
+	Panel5.Visible=False
+	Panel6.Visible=False
+	Panel7.Visible=False
+End Sub
+
+Private Sub Button1_Click
+	If Button1.Text="Conectar" Then
+		Button1.Enabled=False
+		CallSub2(Starter,"Conectar",True)
+	Else
+		Button1.Enabled=True
+		CallSub2(Starter,"Conectar",False)
+	End If
+End Sub
+
+Private Sub Button2_Click
+	Panel1.Visible=False
+	Panel5.Visible=False
+	Panel2.Visible=True
+End Sub
+
+Private Sub Button3_Click
+	Panel1.Visible=True
+	Panel5.Visible=True
+	Panel2.Visible=False
+End Sub
+
+Private Sub Button4_Click
+	Panel1.Visible=False
+	Panel5.Visible=False
+	Panel3.Visible=True
+End Sub
+
+Private Sub Button5_Click
+	Panel1.Visible=True
+	Panel5.Visible=True
+	Panel3.Visible=False
+End Sub
+
+Private Sub Button6_Click
+	Panel1.Visible=True
+	Panel5.Visible=True
+	Panel4.Visible=False
+End Sub
+
+Private Sub Button7_Click
+	Panel1.Visible=False
+	Panel5.Visible=False
+	Panel4.Visible=True
+End Sub
+
+Private Sub Button8_Click
+	Panel1.Visible=True
+	Panel5.Visible=True
+	Panel6.Visible=False	
+End Sub
+
+Private Sub Button9_Click
+	Panel5.Visible=False
+	Panel1.Visible=False
+	Panel6.Visible=True
+End Sub
+
+
+Private Sub Button10_Click
+	Panel5.Visible=True
+	Panel1.Visible=True
+	Panel7.Visible=False
+	CallSub2(Starter,"send","bt_send=0")
+End Sub
+
+Private Sub Button11_Click
+	Panel5.Visible=False
+	Panel1.Visible=False
+	Panel7.Visible=True
+	CallSub2(Starter,"send","bt_send=1")
+End Sub
+
+Private Sub Button12_Click
+	DateTime.DateFormat="ddMMyyy"
+	DateTime.TimeFormat ="HHmmss"
+	CallSub2(Starter,"Send","time" & DateTime.Date( DateTime.Now) & DateTime.Time(DateTime.Now) & (DateTime.GetDayOfWeek( DateTime.Now)))
+End Sub
+
+Private Sub CheckBox1_click
+	If CheckBox1.Checked Then
+		CallSub2(Starter,"Send","mem38=1")
+	Else
+		CallSub2(Starter,"Send","mem38=0")
+	End If
+End Sub
+
+Private Sub EditText1_EnterPressed
+	CallSub2(Starter,"Send","m0="&EditText1.Text.Trim)
+End Sub
+
+Private Sub EditText2_EnterPressed
+	CallSub2(Starter,"Send","m2="&EditText2.Text.Trim)
+End Sub
+
+Private Sub EditText3_EnterPressed
+	CallSub2(Starter,"Send","m4="&EditText3.Text.Trim)
+End Sub
+
+Private Sub EditText4_EnterPressed
+	CallSub2(Starter,"Send","m6="&EditText4.Text.Trim)
+End Sub
+
+Private Sub EditText5_EnterPressed
+	CallSub2(Starter,"Send","m8="&EditText5.Text.Trim)
+End Sub
+
+Private Sub EditText6_EnterPressed
+	CallSub2(Starter,"Send","m13="&EditText6.Text.Trim)
+End Sub
+
+Private Sub EditText7_EnterPressed
+	CallSub2(Starter,"Send","m19="&EditText7.Text.Trim)
+End Sub
+
+Private Sub EditText8_EnterPressed
+	CallSub2(Starter,"Send","m21="&EditText8.Text.Trim)
+End Sub
+
+Private Sub EditText9_EnterPressed
+	CallSub2(Starter,"Send","m23="&EditText9.Text.Trim)
+End Sub
+
+Private Sub EditText10_EnterPressed
+	Starter.kvs.Put("BT_name",EditText10.Text)
+	ToastMessageShow("Guardado",False)
+End Sub
+
+Private Sub EditText11_EnterPressed
+	CallSub2(Starter,"Send","m28="&EditText11.Text.Trim)
+End Sub
+
+Private Sub EditText12_EnterPressed
+	CallSub2(Starter,"Send","m30="&EditText12.Text.Trim)
+End Sub
+
+Private Sub EditText13_EnterPressed
+	CallSub2(Starter,"Send","m32="&EditText13.Text.Trim)
+End Sub
+
+Private Sub txtSend_EnterPressed
+	CallSub2(Starter,"Send",txtSend.Text)
+	txtSend.Text=""
+End Sub
+
+Private Sub Button13_Click
+	CallSub2(Starter,"Send","m34="&gas.Trim)
+End Sub
+
+Private Sub Button14_Click
+	CallSub2(Starter,"Send","m36="&gas.Trim)
+End Sub
+
+Private Sub Button15_Click
+	CallSub2(Starter,"Send","mem40="&ldr.Trim)
+End Sub
+
+Private Sub Button16_Click
+	CallSub2(Starter,"Send","mem42="&ldr.Trim)
+End Sub
+
+Private Sub EditText14_EnterPressed
+	CallSub2(Starter,"Send","mem34="&EditText14.text.Trim)
+End Sub
+
+Private Sub EditText15_EnterPressed
+	CallSub2(Starter,"Send","mem36="&EditText15.text.Trim)
+End Sub
+
+Private Sub EditText16_EnterPressed
+	CallSub2(Starter,"Send","mem40="&EditText16.text.Trim)
+End Sub
+
+Private Sub EditText17_EnterPressed
+	CallSub2(Starter,"Send","mem42="&EditText17.text.Trim)
+End Sub
+
+Private Sub CheckBox2_click
+	If CheckBox1.Checked Then
+		CallSub2(Starter,"Send","set1")
+	Else
+		CallSub2(Starter,"Send","set0")
+	End If
+End Sub
+
+Private Sub Button20_Click
+	Button20.Color=Colors.Gray
+	CallSub2(Starter,"Send","set0313-1")
+End Sub
+
+Private Sub Button21_Click
+	Button21.Color=Colors.Gray
+	CallSub2(Starter,"Send","set0305-1")
+End Sub
+
+Private Sub Button22_Click
+	Button22.Color=Colors.Gray
+	CallSub2(Starter,"Send","set0311-1")	
+End Sub
+
+Private Sub Button23_Click
+	Button23.Color=Colors.Gray
+	CallSub2(Starter,"Send","set0310-1")
+End Sub
+
+Private Sub Button24_Click  'auxiliar
+	Button24.Color=Colors.Gray
+	CallSub2(Starter,"Send","set0302-1")
+End Sub
+
+Private Sub Button25_Click
+	Button25.Color=Colors.Gray
+	CallSub2(Starter,"Send","set0314-1")
+End Sub
+
+Private Sub Button26_Click
+	Button26.Color=Colors.Gray
+	CallSub2(Starter,"Send","set0307-1")
+End Sub
+
+Private Sub Button27_Click
+	Button27.Color=Colors.Gray
+	CallSub2(Starter,"Send","set0306-1")
+End Sub
+
+Private Sub Button28_Click
+	Button28.Color=Colors.Gray
+	CallSub2(Starter,"Send","set0304-1")
+End Sub
+
+Private Sub Button29_Click
+	Button29.Color=Colors.Gray
+	CallSub2(Starter,"Send","set0309-1")
+End Sub
+
+Private Sub Button30_Click
+	Button30.Color=Colors.Gray
+	CallSub2(Starter,"Send","set0312-1")
+End Sub
+
+Private Sub Button31_Click
+	Button31.Color=Colors.Gray
+	CallSub2(Starter,"Send","set0308-1")
+End Sub
+
+Private Sub Button32_Click
+	Button32.Color=Colors.Gray
+	CallSub2(Starter,"Send","set0303-1")
+End Sub
+
+Private Sub Button33_Click
+	Button33.Color=Colors.Gray
+	CallSub2(Starter,"Send","set0300-1")
+End Sub
+
+Private Sub Button34_Click
+	Button34.Color=Colors.Gray
+	CallSub2(Starter,"Send","set0301-1")
+End Sub
+
+Private Sub Button35_Click
+	Button35.Color=Colors.Gray
+	CallSub2(Starter,"Send","set0315-1")
+End Sub
