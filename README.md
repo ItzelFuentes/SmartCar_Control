@@ -65,11 +65,12 @@ En la primer entrega se logró concretar un circuito integrado por un arduino me
 |<img src = "https://github.com/ItzelFuentes/SmartCar_Control/assets/106613946/591c2e9b-1f85-4306-8d99-eb7074ee0edb" width="500"> <img src = "https://github.com/ItzelFuentes/SmartCar_Control/assets/106613946/ebb0a19d-2160-47e3-a07e-3874fd91453c" width="500"> | <img src = "https://github.com/ItzelFuentes/SmartCar_Control/assets/108686186/de7cfabb-ed8e-427b-8c33-7caf32ed3ab4" width="500"> <img src = "https://github.com/ItzelFuentes/SmartCar_Control/assets/108686186/45584c5a-5581-43be-bda1-567bdcdd6adc" width="500">|
 
 ### Evidencia del proceso
-![image](https://github.com/user-attachments/assets/aa334c66-69cd-4e6f-88b9-b4e278f93fce)
-![image](https://github.com/user-attachments/assets/42f0e77d-0849-406b-b284-4d1a9f82d761)
-![image](https://github.com/user-attachments/assets/33978e2e-d2a5-46dc-87e1-7ab4c986c833)
-![image](https://github.com/user-attachments/assets/3e8d4335-f7b1-4adf-bae3-daf5d0d3088a)
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/aa334c66-69cd-4e6f-88b9-b4e278f93fce" width="300" height="200" alt="image1">
+  <img src="https://github.com/user-attachments/assets/42f0e77d-0849-406b-b284-4d1a9f82d761" width="300" height="200" alt="image2">
+  <img src="https://github.com/user-attachments/assets/33978e2e-d2a5-46dc-87e1-7ab4c986c833" width="300" height="200" alt="image3">
+  <img src="https://github.com/user-attachments/assets/3e8d4335-f7b1-4adf-bae3-daf5d0d3088a" width="300" height="200" alt="image4">
+</p>
 
 ### Resultado final
 ![image](https://github.com/user-attachments/assets/16e4a527-40f5-4356-be32-7c6f0ecce2b8)
